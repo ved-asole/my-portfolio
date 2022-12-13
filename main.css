@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primary-color: #051726;  
+    /* --secondary-color: #041420;   */
+    --secondary-color: #030f17;  
+    --tertiary-color: #81FFD9;  
+    --font-color: #81FFD9;  
+}
+
+.bg-primary{
+    background-color: var(--primary-color);
+}
+
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+
+.bg-tertiary{
+    background-color: var(--tertiary-color);
+}
+
+.text-secondary{
+    color: var(--font-color);
+}
+
+.card {
+    height: 23rem;
+    width: 30rem;
+    background-color: var(--primary-color);
+    padding: 4.3rem;
+    /* border: 2px solid white; */
+}
+
+.project-scroll-btn {
+    border: 2px solid white;
+    padding: 1.3rem 2rem;
+    background-color: #09b380;
+}
