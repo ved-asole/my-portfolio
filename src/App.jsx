@@ -18,6 +18,10 @@ const App = () => {
   
   return (
     <>
+      <div>
+        <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
+
+      </div>
       <Navbar />
       <Hero />
       <Services />
