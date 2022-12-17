@@ -26,13 +26,6 @@
     color: var(--font-color);
 }
 
-.card {
-    height: 23rem;
-    width: 30rem;
-    background-color: var(--primary-color);
-    padding: 4.3rem;
-    /* border: 2px solid white; */
-}
 
 .project-scroll-btn {
     border: 2px solid white;
