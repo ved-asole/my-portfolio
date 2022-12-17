@@ -37,7 +37,7 @@ const Testimonials = () => {
                                     </p>
                                     <div className="flex justify-between pt-7 pl-3 pr-3">
                                         <div className="pr-7">
-                                            <img src="https://randomuser.me/api/portraits/men/75.jpg" className="h-20 rounded-full" alt srcSet />
+                                            <img src="https://randomuser.me/api/portraits/men/75.jpg" className="h-20 rounded-full" alt="Name" />
                                         </div>
                                         <div>
                                             <h1 className="text-3xl font-medium">Vighnesh Gupta</h1>
@@ -64,7 +64,7 @@ const Testimonials = () => {
                                     </p>
                                     <div className="flex justify-between pt-7 pl-3 pr-3">
                                         <div className="pr-7">
-                                            <img src="https://randomuser.me/api/portraits/men/75.jpg" className="h-20 rounded-full" alt srcSet />
+                                        <img src="https://randomuser.me/api/portraits/men/75.jpg" className="h-20 rounded-full" alt="Name" />
                                         </div>
                                         <div>
                                             <h1 className="text-3xl font-medium">Priyanshu Nagar</h1>
@@ -91,7 +91,7 @@ const Testimonials = () => {
                                     </p>
                                     <div className="flex justify-between pt-7 pl-3 pr-3">
                                         <div className="pr-7">
-                                            <img src="https://randomuser.me/api/portraits/men/75.jpg" className="h-20 rounded-full" alt srcSet />
+                                        <img src="https://randomuser.me/api/portraits/men/75.jpg" className="h-20 rounded-full" alt="Name" />
                                         </div>
                                         <div>
                                             <h1 className="text-3xl font-medium">Liza Mathur</h1>
