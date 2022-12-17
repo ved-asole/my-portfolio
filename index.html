@@ -12,144 +12,140 @@
     </head>
     <body>
 
+        <nav class="py-2 text-white flex justify-between bg-primary min-w-full px-12 md:px-28 sticky top-0">
+            <a href="#">
+                <img src="/images/logo.png" class="h-12 pt-3 cursor-pointer" alt="">
+            </a>
+            <!-- <span class="text-xl flex items-center mx-3 font-bold">Ved Asole</span> -->
+            <ul class="py-4 flex space-x-11 justify-end font-medium text-lg">
+                <li class="cursor-pointer hover:text-[#81FFD9] hidden md:flex">
+                    <a href="#">Home</a>
+                </li>
+                <li class="cursor-pointer hover:text-[#81FFD9] hidden lg:flex">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="cursor-pointer hover:text-[#81FFD9]">Resume</li>
+                <li class="cursor-pointer hover:text-[#81FFD9] hidden lg:flex">Search</li>
+            </ul>
+        </nav>
+
         <!-- Heading Section -->
-        <div class="container bg-primary min-w-full px-28" id="top">
+        <div class="bg-primary min-w-full md:px-28 px-12 max-h-screen" id="top">
 
-            <div class="h-screen">
+            <section id="home">
 
-                <nav class="pt-10 text-white flex justify-between px-8">
-                    <a href="#">
-                        <img src="/images/logo.png" class="h-12 pt-3 cursor-pointer" alt="">
-                    </a>
-                    <!-- <span class="text-xl flex items-center mx-3 font-bold">Ved Asole</span> -->
-                    <ul class="py-4 flex space-x-11 justify-end font-medium text-lg">
-                        <li class="cursor-pointer hover:text-[#81FFD9]">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="cursor-pointer hover:text-[#81FFD9]">
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li class="cursor-pointer hover:text-[#81FFD9]">Resume</li>
-                        <li class="cursor-pointer hover:text-[#81FFD9]">Search</li>
-                    </ul>
-                </nav>
-        
-                <section id="home">
+                <main class="text-white">
     
-                    <main class="text-white">
-        
-                        <div class="header flex justify-around">
-                            <div class="main py-44">
-                            
-                                <div>
-                                    <p class="text-4xl leading-snug">Hello, <span class="text-secondary">I'm</span></p>
-                                    <h1 class="text-6xl font-bold text-secondary leading-snug">Ved Asole</h1>
-                                    <p class="text-3xl leading-snug font-medium">Software Developer and Designer</p>
-                                </div>
-            
-                                <p class="py-4 w-1/3">
+                    <div class="header flex justify-around">
+                        <div class="main py-10 md:h-4/5 min-h-[95%]">
+                        
+                            <div>
+                                <p class="md:text-4xl text-lg leading-snug">Hello, <span class="text-secondary">I'm</span></p>
+                                <h1 class=" md:text-6xl text-5xl font-bold text-secondary leading-[1.6] md:leading-[1.5]">Ved Asole</h1>
+                                <p class="md:text-3xl text-base  leading-snug font-medium">Software Developer and Designer</p>
+                                <p class="py-4 md:w-2/3 w-full">
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non nihil, minus minima qui dolore  odit eligendi. Praesentium accusamus mollitia ullam rerum recusandae.   
                                 </p>
-            
-                                <div class="my-4">
-                                    <button class="bg-[#00cf91] px-5 py-2 rounded-xl text-white text-2xl font-medium border-2 border-[#00cf91]
-                                     hover:text-[#00cf91] hover:bg-[#051726] hover:border-2 hover:border-[#81FFD9] mr-2"
-                                     >Let's Talk</button>
-                                </div>
-            
-                                <div class="social-links text-xl mt-20 flex">
-                                    <p>Checkout Out My</p>
-                                    <div class="icons mx-7">
-                                            
-                                        <span class="mx-5 cursor-pointer hover:text-[#81FFD9] ">
-                                            <a href="https://www.instagram.com/its_vedzzz">
-                                                <i class="fa-brands fa-instagram h-7"></i>
-                                            </a>
-                                        </span>
-                                        <span class="mx-5 cursor-pointer hover:text-[#81FFD9]">
-                                            <a href="https://www.linkedin.com/in/vedasole/">
-                                                <i class="fa-brands fa-linkedin h-7"></i>
-                                            </a>
-                                        </span>
-                                        <span class="mx-5 cursor-pointer hover:text-[#81FFD9]">
-                                            <a href="https://github.com/GhostCoderz">
-                                                <i class="fa-brands fa-github h-7"></i></i>
-                                            </a>
-                                        </span>
-                                        
-                                    </div>
+                            </div>
+        
+        
+                            <div class="my-4">
+                                <button class="bg-[#00cf91] px-5 py-2 rounded-xl text-white text-2xl font-medium border-2 border-[#00cf91]
+                                hover:text-[#00cf91] hover:bg-[#051726] hover:border-2 hover:border-[#81FFD9] mr-2"
+                                >Let's Talk</button>
+                            </div>
+        
+                            <div class="social-links text-xl mt-12 flex flex-col lg:flex-row">
+                                <p class="leading-10 lg:mr-2">Checkout Out My</p>
+                                <div class="icons  md:py-2 ">
                                     
+                                    <span class="mx-2 cursor-pointer hover:text-[#81FFD9]">
+                                        <a href="https://github.com/GhostCoderz">
+                                            <i class="fa-brands fa-github h-7"></i>
+                                        </a>
+                                    </span>
+                                   
+                                    <span class="mx-2 cursor-pointer hover:text-[#81FFD9]">
+                                        <a href="https://www.linkedin.com/in/vedasole/">
+                                            <i class="fa-brands fa-linkedin h-7"></i>
+                                        </a>
+                                    </span>
+                                    
+                                    <span class="mx-2 cursor-pointer hover:text-[#81FFD9] ">
+                                        <a href="https://www.instagram.com/its_vedzzz">
+                                            <i class="fa-brands fa-instagram h-7"></i>
+                                        </a>
+                                    </span>
                                 </div>
-                
+                                
                             </div>
-                
-                            <div class="flex items-center ">
-                                <img src="/images/bg-only-man.png" alt="">
-                            </div>
+            
                         </div>
             
-                    </main>
-    
-                </section>
+                        <div class=" justify-center object-contain hidden lg:flex max-h-4/5">
+                            <img src="./images/he_sitting_with_notebook.png" alt="Ved Asole" class="w-1/2 min-h-4/5 max-h-4/5">
+                        </div>
+                    </div>
+        
+                </main>
 
-            </div>
+            </section>
 
         </div>
 
         <!-- What I do Section -->
-        <div class="container bg-secondary min-w-full px-28">
+        <div class="bg-secondary min-w-full md:px-28 px-12">
 
-            <div class="h-screen">
 
-                <section id="work" class="text-white pt-15">
-                    
-                    <div class="pt-28">
-                        <p class="text-3xl  leading-loose">My <span class="text-secondary">Services</span> </p>
-                        <h1 class="text-6xl font-bold">What I do</h1>
-                    </div>
+            <section id="work" class="text-white pt-15">
+                
+                <div class="pt-20">
+                    <p class="text-2xl md:text-3xl   leading-loose">My <span class="text-secondary">Services</span> </p>
+                    <h1 class="text-5xl md:text-6xl font-bold">What I do</h1>
+                </div>
 
-                    <div class="work pt-32 px-12">
+                <div class="work py-20 md:px-10">
 
-                        <div class="grid grid-cols-3 gap-4 pt-14">
+                    <div class="grid grid-cols-1 lg:grid-cols-2  xl:grid-cols-3 gap-4 ">
 
-                            <div class="card rounded-2xl text-center">
-                                <div class="icon text-secondary leading-loose">
-                                    <i class="fa-solid fa-gears h-20"></i>
-                                </div>
-                                <h1 class="text-2xl font-bold pt-5">Backend Development</h1>
-                                <p class="pt-3">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui 
-                                    laboriosam sequi corrupti dolores laudantium est sit.
-                                </p>
+                        <div class="bg-[#051726] p-[3rem] rounded-2xl text-center">
+                            <div class="icon text-secondary leading-loose">
+                                <i class="fa-solid fa-gears h-20"></i>
                             </div>
+                            <h1 class="text-2xl font-bold pt-5">Backend Development</h1>
+                            <p class="pt-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui 
+                                laboriosam sequi corrupti dolores laudantium est sit.
+                            </p>
+                        </div>
 
-                            <div class="card rounded-2xl text-center">
-                                <div class="icon text-secondary leading-loose">
-                                    <i class="fa-solid fa-gears h-20"></i>
-                                </div>
-                                <h1 class="text-2xl font-bold pt-5">Frontend Development</h1>
-                                <p class="pt-3">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit.
-                                </p>
+                        <div class="bg-[#051726] p-[3rem] rounded-2xl text-center">
+                            <div class="icon text-secondary leading-loose">
+                                <i class="fa-solid fa-gears h-20"></i>
                             </div>
-
-                            <div class="card rounded-2xl text-center">
-                                <div class="icon text-secondary leading-loose">
-                                    <i class="fa-solid fa-bug h-20"></i>
-                                </div>
-                                <h1 class="text-2xl font-bold pt-5">Application Testing</h1>
-                                <p class="pt-3">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit.
-                                </p>
+                            <h1 class="text-2xl font-bold pt-5">Backend Development</h1>
+                            <p class="pt-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui 
+                                laboriosam sequi corrupti dolores laudantium est sit.
+                            </p>
+                        </div>
+                        
+                        <div class="bg-[#051726] p-[3rem] rounded-2xl text-center">
+                            <div class="icon text-secondary leading-loose">
+                                <i class="fa-solid fa-gears h-20"></i>
                             </div>
-
+                            <h1 class="text-2xl font-bold pt-5">Backend Development</h1>
+                            <p class="pt-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui 
+                                laboriosam sequi corrupti dolores laudantium est sit.
+                            </p>
                         </div>
 
                     </div>
 
-                </section>
+                </div>
 
-            </div>
+            </section>
 
         </div>
 
