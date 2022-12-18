@@ -36,6 +36,12 @@ export const projects=[
         name: 'Blog Application4',
         desc : 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit.',
         tech: ['Spring Boot','Spring Data JPA','AWS RDS/MySQL Database','Spring Security','Swagger']
+    },
+
+    {
+        name: 'Blog Application5',
+        desc : 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit.',
+        tech: ['Spring Boot','Spring Data JPA','AWS RDS/MySQL Database','Spring Security','Swagger']
     }
 
     
