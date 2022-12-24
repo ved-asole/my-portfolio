@@ -1,8 +1,9 @@
 import Glide from "@glidejs/glide"
 
 
-export function createGlide(type, id){
+export function createGlide(type, id , autoplayDur){
     let glide = new Glide(`#${id}`, {
+        autoplay: autoplayDur,
         type: type,
         rewindDuration: 500,
         gap:20,

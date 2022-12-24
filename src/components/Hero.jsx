@@ -1,6 +1,7 @@
 import React from 'react'
 import profile from '../assets/images/profile.png'
 
+import { socials } from '../assets'
 
 const Hero = () => {
     return (
@@ -23,21 +24,14 @@ const Hero = () => {
                         <div className="social-links text-xl mt-12 flex flex-col lg:flex-row">
                             <p className="leading-10 lg:mr-2">Checkout Out My</p>
                             <div className="icons  md:py-2 ">
-                                <span className="mx-2 cursor-pointer hover:text-[#81FFD9]">
-                                    <a href="https://github.com/GhostCoderz">
-                                        <i className="fa-brands fa-github h-7" />
-                                    </a>
-                                </span>
-                                <span className="mx-2 cursor-pointer hover:text-[#81FFD9]">
-                                    <a href="https://www.linkedin.com/in/vedasole/">
-                                        <i className="fa-brands fa-linkedin h-7" />
-                                    </a>
-                                </span>
-                                <span className="mx-2 cursor-pointer hover:text-[#81FFD9] ">
-                                    <a href="https://www.instagram.com/its_vedzzz">
-                                        <i className="fa-brands fa-instagram h-7" />
-                                    </a>
-                                </span>
+                                {socials.map((social) => (
+
+                                    <span className="mx-2 cursor-pointer hover:text-[#81FFD9]" key={social.name}>
+                                        <a target='_blank' href={social.url}>
+                                            <i className={` ${social.fa_class} h-7`} />
+                                        </a>
+                                    </span>
+                                ))}
                             </div>
                         </div>
                     </div>

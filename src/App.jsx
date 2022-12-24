@@ -8,7 +8,9 @@ import Services from './components/Services'
 import Projects from './components/Projects'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import BackToTop from './components/BackToTop'
 
+import './index.css'
 
 const App = () => {
 
@@ -26,8 +28,9 @@ const App = () => {
       <Hero />
       <Services />
       <Projects />
-      {/* <Testimonials /> */}
-      {/* <Footer /> */}
+      <Testimonials />
+      <BackToTop />
+      <Footer />
     </>
   )
 }
