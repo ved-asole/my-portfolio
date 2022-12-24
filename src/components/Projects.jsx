@@ -25,7 +25,7 @@ const Projects = () => {
                             <ul className="glide__slides flex content-center">
                                 {projects.map((project, i) => (
                                     <li className="glide__slide z-0" key={i}>
-                                        <div className="card rounded-2xl text-center border-2 mx-auto p-10">
+                                        <div className="rounded-2xl text-center border-2 mx-auto p-10">
                                             <div className="icon text-secondary leading-loose">
                                                 <i className="fa-solid fa-gears h-20" />
                                             </div>
@@ -41,18 +41,13 @@ const Projects = () => {
                                         </div>
                                     </li>
                                 ))}
-                                {/* <li className="glide__slide min-h-full">
-                                    <div className=" m-auto  p-10 flex justify-center">
-                                        <p>Show All</p>
-                                    </div>
-                                </li> */}
 
                             </ul>
                         </div>
 
                         <div className="buttons text-white mt-24" data-glide-el="controls">
-                            <button data-glide-dir="<" className="mx-16 rounded-3xl border-2 py-[1.3rem] px-[2rem] bg-[#09b380]">Prev</button>
-                            <button data-glide-dir=">" className="mx-16 rounded-3xl border-2 py-[1.3rem] px-[2rem] bg-[#09b380]">Next</button>
+                            <button data-glide-dir="<" className="mx-2 md:mx-16 rounded-3xl border-2 py-[1.3rem] px-[2rem] bg-[#09b380]">Prev</button>
+                            <button data-glide-dir=">" className="mx-2 md:mx-16 rounded-3xl border-2 py-[1.3rem] px-[2rem] bg-[#09b380]">Next</button>
                         </div>
                     </div>
                 </div>

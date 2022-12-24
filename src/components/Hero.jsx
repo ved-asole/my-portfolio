@@ -4,9 +4,9 @@ import profile from '../assets/images/profile.png'
 
 const Hero = () => {
     return (
-        <div className="bg-[#051726] min-w-full md:px-28 px-12 max-h-screen" id="top">
+        <div className="bg-[#051726] min-w-full md:px-28 px-12 max-h-screen py-10" id="top">
             <section id="home">
-                <main className="header flex justify-around flex-wrap  text-white">
+                <main className="header sm:flex justify-around block flex-wrap  text-white">
                     <div className="main flex-[0.5] h-full self-center">
                         <div>
                             <p className="md:text-4xl text-lg leading-snug">Hello, <span className="text-secondary">I'm</span></p>
