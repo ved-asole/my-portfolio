@@ -78,3 +78,21 @@ export const testimonials = [
     },
 
 ]
+
+export const socials = [
+    {
+        name: 'LinkedIn',
+        url: 'https://linkedin.com/in/vedasole/',
+        fa_class : 'fa-brands fa-linkedin '
+    },
+    {
+        name: 'Github',
+        url: 'https://github.com/GhostCoderz/',
+        fa_class : 'fa-brands fa-github'
+    },
+    {
+        name: 'LinkedIn',
+        url: 'https://instagram.com/its_vedzzz',
+        fa_class : 'fa-brands fa-instagram '
+    }
+]

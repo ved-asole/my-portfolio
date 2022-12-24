@@ -7,13 +7,11 @@ const Testimonials = () => {
         createGlide('carousel', 'testimonial-glide', 2000);
     }, [])
     return (
-        <div data-aos="fade-right" className="container bg-[#030f17] md:px-28 px-12 min-h-screen p-10">
+        <div className="bg-[#030f17] md:px-28 px-12 min-h-screen p-10">
             <section id="testominals">
                 <div className="text-white pt-15">
-                    <div className="pt-20">
-                        <p className="text-3xl leading-loose text-secondary">TESTIMONIALS</p>
-                        <h1 className="text-6xl font-bold text-white">What Client Say</h1>
-                    </div>
+                    <p className="text-3xl leading-loose text-secondary">TESTIMONIALS</p>
+                    <h1 className="text-6xl font-bold text-white">What Client Say</h1>
                 </div>
                 <div className="testimonials py-20 text-white">
                     <div id="testimonial-glide">
