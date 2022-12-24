@@ -5,7 +5,7 @@ import { createGlide } from '../assets/utils'
 
 const Projects = () => {
     useEffect(() => {
-        createGlide('slider', 'glide');
+        createGlide('slider', 'project-glide' , 10000);
     }, [])
 
 
@@ -20,7 +20,7 @@ const Projects = () => {
                         laboriosam sequi corrupti dolores laudantium est sit.
                     </p>
 
-                    <div id="glide">
+                    <div id="project-glide">
                         <div data-glide-el="track" className="glide__track">
                             <ul className="glide__slides flex content-center">
                                 {projects.map((project, i) => (
