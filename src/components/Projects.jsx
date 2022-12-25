@@ -20,7 +20,7 @@ const Projects = () => {
                         laboriosam sequi corrupti dolores laudantium est sit.
                     </p>
 
-                    <div id="project-glide" className='overflow-x-hidden'>
+                    <div id="project-glide" className='overflow-hidden'>
                         <div data-glide-el="track" className="glide__track">
                             <ul className="glide__slides flex content-center">
                                 {projects.map((project, i) => (

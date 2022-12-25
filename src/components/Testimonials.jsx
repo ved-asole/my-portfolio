@@ -14,7 +14,7 @@ const Testimonials = () => {
                     <h1 className="text-6xl font-bold text-white">What Client Say</h1>
                 </div>
                 <div className="testimonials py-20 text-white">
-                    <div id="testimonial-glide" className='overflow-x-hidden'>
+                    <div id="testimonial-glide" className='overflow-hidden'>
                         <div data-glide-el="track" className="glide__track">
                             <ul className="glide__slides flex content-center">
                                 {testimonials.map((testimonial, i) => (
