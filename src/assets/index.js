@@ -49,29 +49,29 @@ export const projects=[
 
 export const testimonials = [
     {
-        name: "Liza",
+        name: "Liza Mathur",
         position: "SQL Developer",
         stars:4,
-        imgUrl: "https://randomuser.me/api/portraits/men/75.jpg",
-        testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit."
-    },
-    {
-        name: "Vignesh",
-        position: "WEB Developer",
-        stars:4,
-        imgUrl: "https://randomuser.me/api/portraits/men/75.jpg",
-        testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit."
-    },
-    {
-        name: "Priyanshu",
-        position: "SQL Developer",
-        stars: 2,
         imgUrl: "https://randomuser.me/api/portraits/men/75.jpg",
         testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit."
     },
     {
         name: "Vignesh Gupta",
-        position: "Developer",
+        position: "Web Developer",
+        stars:4,
+        imgUrl: "https://randomuser.me/api/portraits/men/75.jpg",
+        testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit."
+    },
+    {
+        name: "Priyanshu Nagar",
+        position: "Software Developer",
+        stars: 4,
+        imgUrl: "https://randomuser.me/api/portraits/men/75.jpg",
+        testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit."
+    },
+    {
+        name: "Ankit Yadav",
+        position: "Software Developer",
         stars:4,
         imgUrl: "https://randomuser.me/api/portraits/men/75.jpg",
         testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui laboriosam sequi corrupti dolores laudantium est sit."
