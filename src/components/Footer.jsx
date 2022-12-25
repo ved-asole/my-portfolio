@@ -19,13 +19,13 @@ const Footer = () => {
                         Charlottesville, California <br />
                         44635
                     </p>
-                    <p className='flex flex-row gap-2 leading-3'>
+                    <p className='flex flex-row gap-2 leading-3 mt-2'>
                         <i className="fa-solid fa-phone text-xl" />
-                        <a href='tel:+918390945445'> +91 83909 45445 </a>
+                        <a href='tel:+918390945445' className='leading-4'> +91 83909 45445 </a>
                     </p>
                     <p className='flex flex-row gap-2 leading-3 mt-2'>
                         <i className="fa-solid fa-envelope text-xl" />
-                        <a href='mailto:vedasole001@gmail.com'> vedasole001@gmail.com </a>
+                        <a href='mailto:vedasole001@gmail.com' className='leading-4'> vedasole001@gmail.com </a>
                     </p>
                 </div>
                 <ul className='flex flex-col gap-3 flex-1'>
