@@ -14,24 +14,24 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col gap-2 flex-[2]">
                     <p className='flex flex-row gap-4 leading-6'>
-                        <i class="fa-solid fa-map-pin text-3xl" />
+                        <i className="fa-solid fa-map-pin text-3xl" />
                         123 Market St. #228 <br />
                         Charlottesville, California <br />
                         44635
                     </p>
                     <p className='flex flex-row gap-2 leading-3'>
-                        <i class="fa-solid fa-phone text-xl" />
+                        <i className="fa-solid fa-phone text-xl" />
                         <a href='tel:+918390945445'> +91 83909 45445 </a>
                     </p>
                     <p className='flex flex-row gap-2 leading-3 mt-2'>
-                        <i class="fa-solid fa-envelope text-xl" />
+                        <i className="fa-solid fa-envelope text-xl" />
                         <a href='mailto:vedasole001@gmail.com'> vedasole001@gmail.com </a>
                     </p>
                 </div>
                 <ul className='flex flex-col gap-3 flex-1'>
                     {['Home', 'About', 'Projects', 'Blog'].map((link, i) => (
-                        <li className='leading-3'>
-                            <i class="fa-solid fa-angles-right"></i> &nbsp; <a href={`#${link.toLocaleLowerCase()}`}> {link} </a>
+                        <li className='leading-3' key={i}>
+                            <i className="fa-solid fa-angles-right"></i> &nbsp; <a href={`#${link.toLocaleLowerCase()}`}> {link} </a>
                         </li>
                     ))
                     }

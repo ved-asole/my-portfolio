@@ -14,11 +14,11 @@ const Testimonials = () => {
                     <h1 className="text-6xl font-bold text-white">What Client Say</h1>
                 </div>
                 <div className="testimonials py-20 text-white">
-                    <div id="testimonial-glide">
+                    <div id="testimonial-glide" className='overflow-x-hidden'>
                         <div data-glide-el="track" className="glide__track">
                             <ul className="glide__slides flex content-center">
                                 {testimonials.map((testimonial, i) => (
-                                    <li className="glide__slide z-0" key={i}>
+                                    <li className="glide__slide z-0" key={testimonial.name}>
                                         <div className="testimonial-card rounded-2xl border-2 pt-10 px-4">
                                             <div className="icon text-secondary leading-loose flex justify-between text-5xl px-2 md:px-10">
                                                 <i className="fa-solid fa-quote-left" />
@@ -26,8 +26,8 @@ const Testimonials = () => {
 
                                                     {[1, 1, 1, 1, 1].map((_, i) => {
                                                         if (testimonial.stars > i)
-                                                            return <i className="fa-solid fa-star" />
-                                                        else return <i className="fa-regular fa-star" />
+                                                            return <i key={i} className="fa-solid fa-star" />
+                                                        else return <i key={i} className="fa-regular fa-star" />
                                                     })}
                                                 </div>
                                             </div>

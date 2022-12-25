@@ -83,7 +83,7 @@ export const socials = [
     {
         name: 'LinkedIn',
         url: 'https://linkedin.com/in/vedasole/',
-        fa_class : 'fa-brands fa-linkedin '
+        fa_class : 'fa-brands fa-linkedin'
     },
     {
         name: 'Github',
@@ -91,8 +91,8 @@ export const socials = [
         fa_class : 'fa-brands fa-github'
     },
     {
-        name: 'LinkedIn',
+        name: 'Instagram',
         url: 'https://instagram.com/its_vedzzz',
-        fa_class : 'fa-brands fa-instagram '
+        fa_class : 'fa-brands fa-instagram'
     }
 ]
