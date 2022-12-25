@@ -10,7 +10,7 @@ const Testimonials = () => {
         <div className="bg-[#030f17] md:px-28 px-12 min-h-screen p-10">
             <section id="testominals">
                 <div className="text-white pt-15">
-                    <p className="text-3xl leading-loose text-secondary">TESTIMONIALS</p>
+                    <p className="text-3xl leading-loose text-[#00cf91]">TESTIMONIALS</p>
                     <h1 className="text-6xl font-bold text-white">What Client Say</h1>
                 </div>
                 <div className="testimonials py-20 text-white">
@@ -20,7 +20,7 @@ const Testimonials = () => {
                                 {testimonials.map((testimonial, i) => (
                                     <li className="glide__slide z-0" key={testimonial.name}>
                                         <div className="testimonial-card rounded-2xl border-2 pt-10 px-4">
-                                            <div className="icon text-secondary leading-loose flex justify-between text-5xl px-2 md:px-10">
+                                            <div className="icon leading-loose flex justify-between text-5xl px-2 md:px-10">
                                                 <i className="fa-solid fa-quote-left" />
                                                 <div className="rating text-2xl pt-2">
 

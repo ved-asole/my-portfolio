@@ -14,7 +14,7 @@ const Projects = () => {
 
             <section id="projects">
                 <div className="text-center text-white pt-20 w-full m-auto">
-                    <h1 className="text-6xl font-bold">Recent <span className="text-secondary">Projects</span> </h1>
+                    <h1 className="text-6xl font-bold">Recent <span className="text-[#00cf91]">Projects</span> </h1>
                     <p className="pt-4 text-2xl mb-20">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque vitae minus reprehenderit qui
                         laboriosam sequi corrupti dolores laudantium est sit.
@@ -26,7 +26,7 @@ const Projects = () => {
                                 {projects.map((project, i) => (
                                     <li className="glide__slide z-0" key={i}>
                                         <div className="rounded-2xl text-center border-2 mx-auto p-10">
-                                            <div className="icon text-secondary leading-loose">
+                                            <div className="icon text-[#00cf91] leading-loose">
                                                 <i className="fa-solid fa-gears h-20" />
                                             </div>
                                             <h1 className="text-2xl font-bold pt-5">{project.name}</h1>

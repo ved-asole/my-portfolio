@@ -10,8 +10,8 @@ const Hero = () => {
                 <main className="header sm:flex justify-around block flex-wrap  text-white">
                     <div className="main flex-[0.5] h-full self-center">
                         <div>
-                            <p className="md:text-4xl text-lg leading-snug">Hello, <span className="text-secondary">I'm</span></p>
-                            <h1 className=" md:text-6xl text-5xl font-bold text-secondary leading-[1.6] md:leading-[1.5]">Ved Asole</h1>
+                            <p className="md:text-4xl text-lg leading-snug">Hello, <span className="text-[#00cf91]">I'm</span></p>
+                            <h1 className=" md:text-6xl text-5xl font-bold text-[#00cf91] leading-[1.6] md:leading-[1.5]">Ved Asole</h1>
                             <p className="md:text-3xl text-base  leading-snug font-medium">Software Developer and Designer</p>
                             <p className="py-4 md:w-3/4 w-full">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non nihil, minus minima qui dolore  odit eligendi. Praesentium accusamus mollitia ullam rerum recusandae.
